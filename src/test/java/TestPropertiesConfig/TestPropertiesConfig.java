@@ -26,4 +26,7 @@ public interface TestPropertiesConfig extends Config{
 
         @Config.Key("remoteUrl")
         String remoteUrl();
+
+        @Key("selenium.remote.url")
+        String getSeleniumRemoteUrl();
 }
